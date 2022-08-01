@@ -1,0 +1,340 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&display=swap');
+*{
+	font-family: 'Dancing Script', cursive;
+}
+header{
+	background-color: rgba(100,137,119,1.00);
+	border-bottom: 2px solid #DBC8B8;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 10px;
+	z-index: 10;
+	position: relative
+}
+header h3 a{
+	text-decoration: none;
+	color: #DBC8B8;
+	padding: 2px 20px;
+	transition: all 0.8s;
+	font-size: 40px
+}
+header h3 a:hover{
+	background-color: #E6D9CF;
+	color: #486858;
+	border-radius: 10px
+}
+.menu li{
+	position: relative
+}
+.menu{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+.menu li a{
+	text-decoration: none;
+	padding: 12px 20px;
+	color: #203624;
+	display: block;
+	font-size: 18px
+}
+.menu li a:hover{
+	color: #DBC8B8;
+	border-bottom: 1px solid #203624;
+}
+.menu span li a{
+	color: #DBC8B8;
+}
+.menu span li a:hover{
+	color: #203624;
+}
+.submenu{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: #294B3B;
+	left: 0;
+	top: 200%;
+	width: 180px;
+	opacity:0;
+	transition-duration: 0.8s;
+	visibility: hidden;
+	border-radius: 6px;
+	list-style: none;
+}
+.menu li:hover .submenu{
+	opacity: 1;
+	top: 100%;
+	visibility: visible;
+}
+.submenu li a{
+	border-bottom: 1px solid #648977;
+	color: #E6D9CF;
+	display: block;
+	padding: 10px 20px
+}
+.submenu li a:hover{
+	color: #648977;
+}
+/*
+.a1{
+	background-color: #0c3b2e;
+	position: fixed;
+	opacity: 0.8
+}
+*/
+/*
+.logo a{
+	font-size: 45px;
+	text-decoration: none;
+	color: #ffba00;
+	font-weight: 700
+}
+.logo{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+.nav-1 ul{
+	list-style: none;
+}
+.nav-1 li{
+	margin: 0 16px;
+}
+.nav-1 a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px
+}
+.nav-1 li a:hover{
+	opacity: 0.5
+}
+.nav ul{
+	list-style: none
+}
+.nav a{
+	text-decoration: none;
+	color: gray;
+}
+.b1{
+	background-color: #ECECEC;
+	width: 300px;
+	height: 25px;
+	padding: 4px 0;
+	border-radius: 20px
+}
+.search{
+	margin-left: 5px;
+}
+ion-icon{
+	margin: 0 5px;
+}
+*/
+.a2{
+	padding: 30px 0 80px 0;
+	background-color: #DBC8B8;
+}
+.a2 h1{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #203624;
+	font-weight: 400;
+	font-size: 40px
+}
+.b2{
+	height: 400px;
+	overflow: hidden;
+	border-radius: 0 0 0 300px
+}
+.b2-1{
+	height: 400px;
+	overflow: hidden;
+	border-radius: 250px 250px 0 0
+}
+.b2-2{
+	height: 400px;
+	overflow: hidden;
+	border-radius: 0 300px 0 0
+}
+.b2 img{
+	height: 150%
+}
+.b3{
+	padding: 16px 0;
+	margin-bottom: 5px
+}
+.b3 p{
+	text-align: center;
+	font-size: 20px;
+	color: white
+}
+.b4{
+	width: 90px;
+	height: 40px;
+	background-color: #648977;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+}
+.b4 a{
+	text-decoration:  none;
+	color: white;
+	font-size: 16px
+}
+.b4:hover{
+	opacity: 0.5
+}
+.b6{
+	background-image: url("../img2/160a0977531540a0e402317d2fed9dd8.jpg");
+	text-align: center;
+	background-size: cover;
+	color: #E6D9CF;
+/*	background-color: #6d9773*/
+}
+.overlay{
+	z-index: 2;
+	background-color: rgba(32,54,36,0.50);
+	padding: 100px 80px
+}
+.b7{
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-top: 30px
+}
+.b7 img{
+	height: 100%;
+}
+.b6 h1{
+	font-size: 30px;
+	color: #203624
+}
+.b6 p{
+	font-size: 20px;
+	padding: 25px
+}
+.b8{
+	width: 180px;
+	height: 50px;
+	background-color: rgba(255,255,255,0.28);
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #DBC8B9;
+	margin-top: 30px;
+}
+.b8 a{
+	text-decoration: none;
+	color: #203624;
+	font-size: 23px;
+	font-weight: 900
+}
+.b8 a:hover{
+	color: #DBC8B8
+}
+.b9{
+	background-image: url("../img2/56cfc877d25c8d25e097d4678a982155.jpg");
+	padding-top: 400px;
+	padding-bottom: 50px;
+	background-position: 0 600px;
+	width: 100%;
+	height: 550px
+}
+.b9 h2{
+	margin-left: 30px;
+	color: #0c3b2e;
+	font-size: 30px;
+	font-weight: 900
+}
+.b9 p{
+	margin-left: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: 400
+}
+.b10{
+	background-image: url("../img2/72bdb94004ebae0b7926c9b8f334ca87.jpg");
+	padding-bottom: 235px;
+	padding-top: 231px;
+	background-position: -40px 0px;
+	background-size: cover;
+	width: 100%;
+	height: 550px
+}
+.b10 h2{
+	margin-left: 10px;
+	color: #0c3b2e;
+	font-size: 20px;
+}
+.b10 p{
+	margin-left: 20px;
+	color: white;
+	font-size: 16px;
+}
+.b11{
+	background-image: url("../img2/a7b7528e4f1757ccf0f4203d390ca672.jpg");
+	padding-bottom: 385px;
+	padding-top: 80px;
+	background-position: 310px 0px;
+	background-size: cover;
+	width: 100%;
+	height: 550px
+}
+.b11 h2{
+	margin-left: 10px;
+	color: #0c3b2e;
+	font-size: 20px;
+}
+.b11 p{
+	margin-left: 20px;
+	color: white;
+	font-size: 16px;
+}
+.b12{
+	background-color: #294B3B
+}
+.b13{
+	height: 500px;
+	background-image: url("../img2/eca2465783cf0e6c1dfd961b200f42d6.jpg");
+	background-size: cover;
+	background-position: 0 500px
+}
+.b14 h2{
+	padding: 130px 0 10px 20px;
+	color: #648977;
+	font-size: 40px
+}
+.b14 p{
+	padding: 0px 0px 0px 50px;
+	color: #E6D9CF;
+	font-size: 20px
+}
+.b14 ion-icon{
+	font-size: 35px;
+	margin-top: 20px;
+	color: white;
+}
+.b14 ion-icon:hover{
+	color: #ffba00
+}
+.a4{
+	margin: 50px 0
+}
+.a6{
+	background-color: #DBC8B9;
+	padding: 20px;
+	text-align: center;
+	color: #294B3B;
+	font-size: 20px
+}
+.text1{
+	color: #648977;
+	margin: 30px 0px
+}
+.text1:hover{
+	color: #DBC8B9
+}
